@@ -2,24 +2,24 @@
 
 ## List the symbols for each of the below Javascript operators
 
-1. Arithmetic Operators
+1. Arithmetic Operators:
     +, -,*, /, %, **, ++,--
 
-2. Assignment Operators
+2. Assignment Operators:
     =, +=, -=, *=, /=
 
-3. Comparison Operators
+3. Comparison Operators:
     ==, ===, !=, !==, >, <, >=, <=
 
-4. Logical Operators
+4. Logical Operators:
     &&, ||, !
 
-5. Bitwise Operators
+5. Bitwise Operators:
     &, |, ^, ~, <<, >>, >>>
 
 ## For each JavaScript Operator, write 2 examples
 
-Arithmetic
+#### Arithmetic
 
 ```JavaScript
  //modulus
@@ -30,11 +30,12 @@ Arithmetic
     console.log(addition);
 
  //increment
-    for(let i = 0; i < 5; i++)
-    console.log(i);
+    for(let i = 0; i < 5; i++) {
+        console.log(i);
+    }
 ```
 
-Assignment 
+#### Assignment 
 
 ```JavaScript
  //assignment
@@ -48,7 +49,7 @@ Assignment
     console.log(count)
 ```
 
-Comparison
+#### Comparison
 
 ```JavaScript
  //equality (data type and values)
@@ -68,7 +69,7 @@ Comparison
     goldenJubilee();
 ```
 
-Logical 
+#### Logical 
 
 ```JavaScript
  // AND
@@ -80,7 +81,7 @@ Logical
  console.log(logic2);
 ```
 
-Bitwise 
+#### Bitwise 
 
 ```JavaScript
  // AND
