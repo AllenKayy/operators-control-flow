@@ -3,33 +3,33 @@
 ## List the symbols for each of the below Javascript operators
 
 1. Arithmetic Operators:
-    +, -,*, /, %, **, ++,--
+    `+, -,*, /, %, **, ++,--`
 
 2. Assignment Operators:
-    =, +=, -=, *=, /=
+    `=, +=, -=, *=, /=`
 
 3. Comparison Operators:
-    ==, ===, !=, !==, >, <, >=, <=
+    `==, ===, !=, !==, >, <, >=, <=`
 
 4. Logical Operators:
-    &&, ||, !
+    `&&, ||, !`
 
 5. Bitwise Operators:
-    &, |, ^, ~, <<, >>, >>>
+    `&, |, ^, ~, <<, >>, >>>`
 
 ## For each JavaScript Operator, write 2 examples
 
 #### Arithmetic
 
 ```JavaScript
- //modulus
+ // modulus
     const num1 = 12
     const num2 = 5
 
     let addition = num1 % num2
     console.log(addition);
 
- //increment
+ // increment
     for(let i = 0; i < 5; i++) {
         console.log(i);
     }
@@ -38,12 +38,12 @@
 #### Assignment 
 
 ```JavaScript
- //assignment
+ // assignment
     let name, track;
     name = "Allen"
     track = "Backend Development"
 
- //-=
+ // minus equal
     let count = 20
     count -= 10; 
     console.log(count)
@@ -52,11 +52,11 @@
 #### Comparison
 
 ```JavaScript
- //equality (data type and values)
+ // equality (data type and values)
     let equality = 15 === "15"? true : false;
     console.log(equality)
 
- //-=
+ // not equal
     let age = 54;
     
     goldenJubilee = () => {
@@ -72,11 +72,11 @@
 #### Logical 
 
 ```JavaScript
- // AND
+ // logical AND
  const logic1 = (24 === 24 && 24 === 24) ? true : false;
  console.log(compare1);
 
- // OR
+ // logical OR
  const logic2 = (24 === 14 || 24 === 22) ? true : false;
  console.log(logic2);
 ```
@@ -84,13 +84,19 @@
 #### Bitwise 
 
 ```JavaScript
- // AND
- const logic1 = (24 === 24 && 24 === 24) ? true : false;
- console.log(compare1);
+ // bitwise AND
+ let a = 12; 
+ let  b = 25; 
 
- // OR
- const logic2 = (24 === 14 || 24 === 22) ? true : false;
- console.log(logic2);
+ result = a & b; 
+ console.log(result);
+
+ // bitwise OR
+ let a = 12; 
+ let  b = 25; 
+
+ result = a | b; 
+ console.log(result); 
 ```
 
 ## What is the result when the following program is executed?
