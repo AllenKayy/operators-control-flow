@@ -10,6 +10,7 @@ socialScienceSubjects = "Accounting, Commerce, Marketing, Geography"
 artsSubjects = "Government, Economics, Literature, History"
 generalSubjects = "English, Mathematics"
 
+classGroup = artsSubjects;
 
 const classGroupCategory = () => {
     if (classGroup === scienceSubjects) {
@@ -22,13 +23,11 @@ const classGroupCategory = () => {
         console.log(invalidMessage)
     }
 }
-
-classGroup = artsSubjects;
 classGroupCategory();
 
 // Question No 5
 
-let num = 40
+let num = 10
 
 nearestPowerOf2 = (num) => {
     let pwr = 1;
