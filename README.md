@@ -3,7 +3,7 @@
 ## List the symbols for each of the below Javascript operators
 
 1. Arithmetic Operators:
-    `+, -,*, /, %, **, ++,--`
+    `+, -, *, /, %, **, ++, --`
 
 2. Assignment Operators:
     `=, +=, -=, *=, /=`
